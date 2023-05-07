@@ -9,7 +9,7 @@ int main () {
 
     int pies, yardas, pulgadas, centimetros, metros;
 
-    print ("Ingrese una medida dada en pies");
+    printf ("Ingrese una medida dada en pies: ");
     fflush(stdin);
     scanf ("%d", &pies);
 
