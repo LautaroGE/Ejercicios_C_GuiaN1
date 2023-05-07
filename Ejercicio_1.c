@@ -18,7 +18,8 @@ int main () {
     minutos = ((numero - horas * 3600)/60);
     segundos = numero % 60;
 
+    printf("\n\nEl numero %d pasado a horas, minutos y segundos es: %d HS %d M %d S\n\n", numero, horas, minutos, segundos);
 
 
-
+    system("pause");
 }
