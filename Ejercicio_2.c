@@ -15,6 +15,10 @@ int main () {
     scanf ("%d", &pies);
 
     yardas = pies*0.33;
-    printf ("%g", yardas);
+    pulgadas = pies*12;
+    centimetros = pies*30.48;
+    metros = pies*0.3048;
+
+
 
 }
