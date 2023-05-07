@@ -19,6 +19,8 @@ int main () {
     centimetros = pies*30.48;
     metros = pies*0.3048;
 
+    printf("\n\nLa medida en pies es de: %d . Este valor es igual a %g yardas, %g pulgadas, %g centimetros y %g metros\n\n", pies, yardas, pulgadas, centimetros, metros);
 
+    system ("pause");
 
 }
