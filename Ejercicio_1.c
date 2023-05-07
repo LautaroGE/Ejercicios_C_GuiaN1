@@ -8,7 +8,11 @@ int main () {
       en Horas, Minutos y Segundos. Ejemplo: Segundos=4000, el programa muestra 1H: 6M: 40S. */
 
 
+    int segundos;
 
+    printf("\nPor favor ingrese un numero entero para pasar a horas: ");
+    fflush(stdin);
+    scanf("%d", &segundos);
 
 
 
