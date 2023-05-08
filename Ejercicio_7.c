@@ -27,10 +27,15 @@ int main () {
     //dividimos por 100 para que mueva otro lugar la coma y repetimos el proceso
     num3 = (numero / 100) % 10;
 
-    //me aseguro que funcione correctamente
-    printf("%d", num3);
+    //dividimos por 1000, repitiendo el proceso para almacenar el primer digito en la ultima variable
+    num4 = (numero / 1000) % 10;
 
 
+    //por ultimo, imprimimos el resultado en pantalla para completar el ejercicio.
+    printf ("\n%d\n", num4);
+    printf ("%d\n", num3);
+    printf ("%d\n", num2);
+    printf ("%d\n\n", num1);
 
     system ("pause");
 
