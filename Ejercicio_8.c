@@ -9,11 +9,11 @@ int main () {
 
     int x, y;
 
-    printf ("Ingrese los valores de x e y: ");
+    printf ("\nIngrese los valores de x e y: ");
     fflush(stdin);
     scanf("%d %d", &x, &y);
 
-
+    printf ("\nEl resultado de %d / %d es: %d, y el resultado de %d o/o %d es %d \n\n", x, y, x / y, x, y, x % y);
 
 
     system ("pause");
