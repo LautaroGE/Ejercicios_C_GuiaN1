@@ -19,6 +19,13 @@ int main () {
     fflush(stdin);
     scanf("%d %d", &num1, &num2);
 
+    int res1, res2, res3, total;
+
+    //asignamos el ultimo digito de la variable num1 a res1
+    //para esto usamos el %, que tomará el ultimo digito y lo almacenara en la variable
+    res1 = num1 % 10;
+    //me aseguro que se haya almacenado correctamente
+    printf ("%d", res1);
 
 
 
